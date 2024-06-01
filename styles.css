@@ -15,10 +15,12 @@ secondary-title {
 
 hub-title {
     border-color: yellow;
+    background-color: yellow;
     border-width: 2px;
     border-style: solid;
     border-radius: 8px;
     padding: 3px;
+    color: #333;
 }
 
 searchArea {
