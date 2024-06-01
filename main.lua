@@ -29,8 +29,9 @@ end
 for index, item in pairs(_response) do
     local ip = item["ip"];
     local name = item["name"];
+    local lasagna = "lasagna";
 
-    if isIpAddress(ip) or ip == 'https://minidogg.github.io/catlol/' then
+    if isIpAddress(ip) or ip == 'https://minidogg.github.io/catlol/' or string.sub(name, 1, #lasagna) == lasagna then
         table.insert(response, item);
     end
 end
