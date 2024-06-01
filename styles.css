@@ -1,0 +1,63 @@
+title {
+    direction: row;
+    gap: 10px;
+
+}
+
+info {
+    direction: column;
+    align-items: end;
+}
+
+secondary-title {
+    padding: 5px;
+}
+
+hub-title {
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+searchArea {
+    direction: row;
+    gap: 20px;
+}
+
+header {
+    direction: column;
+    gap: 20px;
+}
+
+categories {
+    direction: row;
+    gap: 20px;
+}
+
+category {
+    border-color: #4444;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+}
+
+active-category {
+    underline: single;
+    underline-color: deepskyblue;
+}
+
+main {
+    direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+h1 {
+    align-items: center;
+}
+
+bold {
+    font-weight: 1000;
+}
